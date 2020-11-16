@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Landing Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Convergence&display=swap" rel="stylesheet"> 
+
+    </head>
+    <body>
+        <header id="header">
+            <a href="index.html"><img id="header-img" src="images/logo.png" alt="astra-logo"></a>
+            <nav id="nav-bar">
+                <ul>
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#learnmore" class="nav-link">Learn More</a></li>
+                    <li><a href="#faq" class="nav-link">FAQ</a></li>
+                    <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="banner">
+                <img src="images/watch-1.png" alt="image of a watch">
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <h4>Would You Like To Talk To Our Executive?</h4>
+                    <div>
+                        <label>First Name</label><input class="input-box" type="text" name="fname" id="fname" placeholder="Enter your First Name here" required>
+                    </div>
+                    <div>
+                        <label>Last Name</label><input class="input-box" type="text" name="lname" id="lname" placeholder="Enter your Last Name here" required>
+                    </div>
+                    <div>
+                        <label>Email</label><input class="input-box" type="email" name="email" id="email" placeholder="Enter your Email ID here" required>
+                    </div>
+                    <div>
+                        <label>Phone Number</label><input class="input-box" type="tel" name="number" id="number" placeholder="Enter your Phone number">
+                    </div>
+                    <div>
+                        <label>How do you prefer us to contact you?</label>
+                        <select name="c-method" id="dropdown">
+                            <option value="email">Email</option>
+                            <option value="number">Phone</option>
+                        </select>
+                    </div>
+                    <input type="submit" id="submit" value="Contact Me">
+                </form>
+            </section>
+            <section id="features">
+                <h3 class="sec-h">FEATURES</h3>
+                <h2 class="sec-sub-h">The Watch Has Lots Of Excellent Features</h2>
+                <p class="sec-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic explicabo voluptas nisi iste reiciendis, tempore commodi necessitatibus, laborum laudantium.</p>
+                <article class="features-sec-1">
+                    <div class="g-f1">
+                        <i class="fa fa-bell fa-2x g-icons" aria-hidden="true"></i><h4>Notification Alert</h4>
+                        <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
+                    </div>
+                    <div class="g-f2">
+                        <i class="fa fa-video-camera fa-2x g-icons" aria-hidden="true"></i><h4>Video Call</h4>
+                        <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
+                    </div>
+                    <div class="g-img">
+                        <img src="images/watch-2.png" alt="image of a watch" id="f-watch">
+                    </div>
+                    <div class="g-f3">
+                        <i class="fa fa-comments fa-2x g-icons" aria-hidden="true"></i><h4>Live Chat</h4>
+                        <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
+                    </div>
+                    <div class="g-f4">
+                        <i class="fa fa-android fa-2x g-icons" aria-hidden="true"></i><h4>Install Apps</h4>
+                        <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
+                    </div>
+                </article>
+                <article class="features-sec-2">
+                    <div>
+                        <i class="fa fa-truck fa-3x f-icons" aria-hidden="true"></i>
+                        <h4>Free Shipping</h4>
+                        <p>No hidden or extra charge</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-thumbs-up fa-3x f-icons" aria-hidden="true"></i>
+                        <h4>2 Year Warrenty</h4>
+                        <p>No hidden or extra charge</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-credit-card-alt fa-3x f-icons" aria-hidden="true"></i>
+                        <h4>Safe Payment</h4>
+                        <p>No hidden or extra charge</p>
+                    </div>
+                </article>
+            </section>
+            <section id="learnmore">
+                <h3 class="sec-h">Learn More</h3>
+                <h2 class="sec-sub-h">Learn More Information About The Watch From The Video</h2>
+                <p class="sec-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic explicabo voluptas nisi iste reiciendis, tempore commodi necessitatibus, laborum laudantium.</p>
+                <div class="video-container">
+                    <iframe id="video" src="https://www.youtube.com/embed/TCMnrssX1NE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </section>
+            <section id="faq">
+                <h3 class="sec-h">Popoular Questions</h3>
+                <h2 class="sec-sub-h">Frequently Asked Questions</h2>
+                <p class="sec-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic explicabo voluptas nisi iste reiciendis, tempore commodi necessitatibus, laborum laudantium.</p>
+                <article id="faq-sec">
+                    <div class="f-img">
+                        <img id="faq-img" src="images/watch-3.png" alt="an image of watch">
+                    </div>
+                    <div id="questions">
+                        <button type="button" class="collapsible">How can I buy the Watch?</button>
+                        <div class="content">
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                        </div>
+                        <button type="button" class="collapsible">How can I order the Watch?</button>
+                        <div class="content">
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                        </div>
+                        <button type="button" class="collapsible">How much is the price of the Watch?</button>
+                        <div class="content">
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                        </div>
+                        <button type="button" class="collapsible">How can I get a refund?</button>
+                        <div class="content">
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section id="pricing">
+                <h3 class="sec-h">Pricing</h3>
+                <h2 class="sec-sub-h">Our excellent and high quality products</h2>
+                <p class="sec-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic explicabo voluptas nisi iste reiciendis, tempore commodi necessitatibus, laborum laudantium.</p>
+                <div id="p-sec">
+                    <div class="p-box">
+                        <h4>Astra Xeon</h4>
+                        <img class="p-img" src="images/watch-4.png" alt="image of a smart watch">
+                        <ul>
+                            <li>Lorem ipsum dolor</li>
+                            <li>Sed ut perspiciatis</li>
+                            <li>Excepteur sint occaecat</li>
+                            <li class="price">&#x20B9; 20000</li>
+                        </ul>
+                        <button class="b-button">Buy Now</button>
+                    </div>
+                    <div class="p-box">
+                        <h4>Astra Xeon Pro</h4>
+                        <img class="p-img" src="images/watch-5.png" alt="image of a smart watch">
+                        <ul>
+                            <li>Lorem ipsum dolor</li>
+                            <li>Sed ut perspiciatis</li>
+                            <li>Excepteur sint occaecat</li>
+                            <li class="price">&#x20B9; 30000</li>
+                        </ul>
+                        <button class="b-button">Buy Now</button>
+                    </div>
+                    <div class="p-box">
+                        <h4>Astra Xeon Pro Max</h4>
+                        <img class="p-img" src="images/watch-6.png" alt="image of a smart watch">
+                        <ul>
+                            <li>Lorem ipsum dolor</li>
+                            <li>Sed ut perspiciatis</li>
+                            <li>Excepteur sint occaecat</li>
+                            <li class="price">&#x20B9; 30000</li>
+                        </ul>
+                        <button class="b-button">Buy Now</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <img id="footer-logo" src="images/logo.png" alt="logo image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic explicabo voluptas nisi iste reiciendis, tempore commodi necessitatibus, laborum laudantium.</p>
+            </div>
+            <div>
+                <ul>
+                    <li id="fl-1"><a href="features">Features</a></li>
+                    <li id="fl-2"><a href="learnmore">Learn More</a></li>
+                    <li id="fl-3"><a href="#faq">FAQ</a></li>
+                    <li id="fl-4"><a href="#pricing">Pricing</a></li>
+                </ul>
+            </div>
+            <div class="subscribe-sec">
+                <input type="email" id="s-email" name="s-email" placeholder="Enter your email ID">
+                <input type="submit" id="subscribe" name="subscribe" value="Subscribe">
+            </div>
+        </footer>
+        <div id="copyright">
+            <p>&#169; Arjun Anaghan. All rights Reserved.</p>
+        </div>
+        <!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
+        <script src="js/collapsible.js"></script>
+    </body>
+</html>
